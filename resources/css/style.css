@@ -61,14 +61,14 @@ nav span {
   margin: auto;
 }
 
-/* Mission */
-
 .flex-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: centre;
 }
+
+/* Mission */
 
 #mission {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
@@ -85,4 +85,26 @@ nav span {
 h2, h4 {
   margin: 0;
   padding: 10px;
+}
+
+/* Tea Store */
+
+#tea-store {
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.product {
+  padding: 5px;
+}
+
+.product img {
+  height: 200px;
+  margin: 10px;
+}
+
+.product span {
+  display: block;
+  font-weight: bold;
 }
